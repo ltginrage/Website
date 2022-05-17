@@ -29,20 +29,28 @@
 </head>
 
 <body>
-
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0" nonce="OWmeSnDA"></script>
   <header id="header">
     <div class="latebat" style="float: right;">
-      Redesigned by Bat#8554 and xem#0861
+      Redesigned by joshua#4979 and xem#0861
     </div>
     <img width="150" Height="150" src="logo.png">
 
     <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
     <ul class="main-menu">
       <li><a href="#home">Home</a></li>
-      <li><a href="#projects">Projects</a></li>
       <li><a href="#Resources">Resources</a></li>
-      <li><a href="#test">test</a></li>
       <li><a href="#contact">Contact</a></li>
+      <div class="dropdown">
+        <button href="#projects" class="dropbtn">Projects</button>
+        <div class="dropdown-content">
+          <a href="#projects">Projects</a>
+          <a href="#nisi-fb">Northern Illinois Scanner Incidents (Facebook)</a>
+          <a href="#nisi-tw">Northern Illinois Scanner Incidents (Twitter)</a>
+          <a href="#quakebot">Quake Bot (Twitter)</a>
+        </div>
+      </div>
     </ul>
   </header>
 
@@ -50,7 +58,7 @@
     <div class="inner">
       <div id="content">
         <section>
-          <h1 class="verdana-text" style="font-size: 2.5rem;">My Links</h1>
+          
           <div>
             <br>
             <br>
@@ -60,7 +68,8 @@
           </div>
         </section>
         <div id="home" class="content-region hide">
-          <div class="tooltip"> <span class="tooltiptext">Twitter</span> <a href="https://twitter.com/TheMooseinIL" target="_blank">
+          <h1 class="verdana-text" style="font-size: 2.5rem;">My Links</h1>
+          <div class="tooltip"> <span class="tooltiptext">Twitter</span> <a href="https://twitter.com/xem0861" target="_blank">
             <img src="./images/twitter.png" width="60" height="60"></div>
         <div class="tooltip"> <span class="tooltiptext">Youtube</span> <a
             href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="./images/youtube.png" width="60"
@@ -271,6 +280,20 @@
     <iframe
       src="https://docs.google.com/forms/d/e/1FAIpQLSf1Pdb0tmZBXxRsMNgJtP_uZa7toOJH5u0_FI7NqQiyVzPsAw/viewform?embedded=true"
       width="798" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div>
+  <div id="nisi-fb" class="content-region hide">
+  </iframe>
+      <div class="fb-page" data-href="https://www.facebook.com/NthrnIllinoisScnnerIncidents" data-tabs="timeline" data-width="500" data-height="800" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/NthrnIllinoisScnnerIncidents" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/NthrnIllinoisScnnerIncidents">Northern Illinois Scanner Incidents</a></blockquote></div>  
+  </div>
+  <div id="nisi-tw" class="content-region hide">
+  </iframe>
+       <a class="twitter-timeline" href="https://twitter.com/nisi_alerts?ref_src=twsrc%5Etfw">Tweets by nisi_alerts</a> 
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+  <div id="quakebot" class="content-region hide">
+  </iframe>
+        <a class="twitter-timeline" data-width="900" data-height="1000" href="https://twitter.com/quake_watcher?ref_src=twsrc%5Etfw">Tweets by quake_watcher</a> 
+       <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
 
 
