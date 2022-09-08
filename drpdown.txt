@@ -1,0 +1,21 @@
+    <div class="nisi-tw">
+      <a class="twitter-timeline" href="https://twitter.com/nisi_alerts?ref_src=twsrc%5Etfw">Tweets by nisi_alerts</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <div class="nisi-fb">
+      <div class="fb-page" data-href="https://www.facebook.com/110074470389759" data-tabs="timeline" data-width=""
+        data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
+        data-show-facepile="true">
+        <blockquote cite="https://www.facebook.com/110074470389759" class="fb-xfbml-parse-ignore"><a
+            href="https://www.facebook.com/110074470389759">Northern Illinois Scanner Incidents</a></blockquote>
+      </div>
+      <div id="fb-root"></div>
+      <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0&appId=1037662487161495&autoLogAppEvents=1"
+        nonce="wmp8COX5"></script>
+    </div>
+    <div class="quakebot">
+      <a class="twitter-timeline" href="https://twitter.com/quake_watcher?ref_src=twsrc%5Etfw">Tweets by
+        quake_watcher</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>

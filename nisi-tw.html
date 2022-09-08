@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+
+<head>
+  <!-- Other site embeds -->
+  <meta content="xem" property="og:title" />
+  <meta content="This is a website embed" property="og:description" />
+  <meta content="https://website.latebat.repl.co" property="og:url" />
+  <meta content="./images/puff.png" property="og:image" />
+  <meta content="#1c2333" data-react-helmet="true" name="theme-color" />
+  <!-- Page setup -->
+  <meta charset="utf-8">
+  <title>xem's Website</title>
+  <meta name="description" content="Website for projects & etc">
+  <meta name="author" content="Information about the author here">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <link rel="icon" type="whatever tf a bellyfloper2 is" href="./images/bellyfloper2.jpg">
+
+  <!-- Stylesheets -->
+  <!-- Reset default styles and add support for google fonts -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+    type="text/css" />
+  <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+
+  <!-- Custom styles -->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <!-- Want to add Bootstrap? -->
+  <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+
+</head>
+<script>function display_ct7() {
+    var x = new Date()
+    var ampm = x.getHours() >= 12 ? ' PM' : ' AM';
+    hours = x.getHours() % 12;
+    hours = hours ? hours : 12;
+    hours = hours.toString().length == 1 ? 0 + hours.toString() : hours;
+
+    var minutes = x.getMinutes().toString()
+    minutes = minutes.length == 1 ? 0 + minutes : minutes;
+
+    var seconds = x.getSeconds().toString()
+    seconds = seconds.length == 1 ? 0 + seconds : seconds;
+
+    var month = (x.getMonth() + 1).toString();
+    month = month.length == 1 ? 0 + month : month;
+
+    var dt = x.getDate().toString();
+    dt = dt.length == 1 ? 0 + dt : dt;
+
+    var x1 = month + "/" + dt + "/" + x.getFullYear();
+    x1 = x1 + " - " + hours + ":" + minutes + ":" + seconds + " " + ampm;
+    document.getElementById('ct7').innerHTML = x1;
+    display_c7();
+  }
+  function display_c7() {
+    var refresh = 1000; // Refresh rate in milli seconds
+    mytime = setTimeout('display_ct7()', refresh)
+  }
+  display_c7()
+</script>
+<span id='ct7' style="color: #ffffff"></span>
+
+<body>
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0"
+    nonce="OWmeSnDA"></script>
+  <header id="header">
+    <div class="latebat" style="float: right;">
+      Redesigned by joshua#4979 and xem#0861
+    </div>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img width="150" Height="150" src="./images/logo.png"></a>
+
+    <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
+    <ul class="main-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Resources.html">Resources</a></li>
+      <li><a clas="aboutmenav" href="aboutme.html">About me</a></li>
+      <div class="dropdown">
+        <button href="#projects" class="dropbtn button">Projects</button>
+        <br>
+        <div class="dropdown-content">
+          <a href="projects.html">Projects</a>
+          <a href="nisi-fb.html">Northern Illinois Scanner Incidents (Facebook)</a>
+          <a href="nisi-tw.html">Northern Illinois Scanner Incidents (Twitter)</a>
+          <a href="quakebot.html">Quake Bot (Twitter)</a>
+        </div>
+      </div>
+    </ul>
+  </header>
+
+  <body>
+    <div class="nisi-tw">
+      <a class="twitter-timeline" href="https://twitter.com/nisi_alerts?ref_src=twsrc%5Etfw">Tweets by nisi_alerts</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </body>
+</body>
+
+</html>

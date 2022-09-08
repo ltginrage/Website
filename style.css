@@ -118,11 +118,42 @@ body {
   max-width:800px;
   margin:25px auto;
 }
-header, #content, #Resources { 
+header { 
   background: rgba(0,0,0,.8); 
   padding:25px;
   color:#FFFFFF; 
 }
+#content { 
+  background: rgba(0,0,0,.8); 
+  padding:25px;
+  color:#FFFFFF; 
+}
+#Resources { 
+  background: rgba(0,0,0,.8); 
+  padding:25px;
+  color:#FFFFFF; 
+}
+#projects { 
+  background: rgba(0,0,0,.8); 
+  padding:25px;
+  color:#FFFFFF; 
+}
+#nisi-fb { 
+  background: rgba(0,0,0,.8); 
+  padding:25px;
+  color:#FFFFFF; 
+}
+#nisi-tw { 
+  background: rgba(0,0,0,.8); 
+  padding:25px;
+  color:#FFFFFF; 
+}
+#quakebot { 
+  background: rgba(0,0,0,.8); 
+  padding:25px;
+  color:#FFFFFF; 
+}
+
 
 /* Menu Links */
 ul.main-menu {
