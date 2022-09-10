@@ -43,37 +43,37 @@
   gtag('config', 'G-VTC93P2RB3');
 </script>
 <center>
-<script>function display_ct7() {
-    var x = new Date()
-    var ampm = x.getHours() >= 12 ? ' PM' : ' AM';
-    hours = x.getHours() % 12;
-    hours = hours ? hours : 12;
-    hours = hours.toString().length == 1 ? 0 + hours.toString() : hours;
+  <script>function display_ct7() {
+      var x = new Date()
+      var ampm = x.getHours() >= 12 ? ' PM' : ' AM';
+      hours = x.getHours() % 12;
+      hours = hours ? hours : 12;
+      hours = hours.toString().length == 1 ? 0 + hours.toString() : hours;
 
-    var minutes = x.getMinutes().toString()
-    minutes = minutes.length == 1 ? 0 + minutes : minutes;
+      var minutes = x.getMinutes().toString()
+      minutes = minutes.length == 1 ? 0 + minutes : minutes;
 
-    var seconds = x.getSeconds().toString()
-    seconds = seconds.length == 1 ? 0 + seconds : seconds;
+      var seconds = x.getSeconds().toString()
+      seconds = seconds.length == 1 ? 0 + seconds : seconds;
 
-    var month = (x.getMonth() + 1).toString();
-    month = month.length == 1 ? 0 + month : month;
+      var month = (x.getMonth() + 1).toString();
+      month = month.length == 1 ? 0 + month : month;
 
-    var dt = x.getDate().toString();
-    dt = dt.length == 1 ? 0 + dt : dt;
+      var dt = x.getDate().toString();
+      dt = dt.length == 1 ? 0 + dt : dt;
 
-    var x1 = month + "/" + dt + "/" + x.getFullYear();
-    x1 = x1 + " - " + hours + ":" + minutes + ":" + seconds + " " + ampm;
-    document.getElementById('ct7').innerHTML = x1;
-    display_c7();
-  }
-  function display_c7() {
-    var refresh = 1000; // Refresh rate in milli seconds
-    mytime = setTimeout('display_ct7()', refresh)
-  }
-  display_c7()
-</script>
-<span id='ct7' style="color: #ffffff"></span>
+      var x1 = month + "/" + dt + "/" + x.getFullYear();
+      x1 = x1 + " - " + hours + ":" + minutes + ":" + seconds + " " + ampm;
+      document.getElementById('ct7').innerHTML = x1;
+      display_c7();
+    }
+    function display_c7() {
+      var refresh = 1000; // Refresh rate in milli seconds
+      mytime = setTimeout('display_ct7()', refresh)
+    }
+    display_c7()
+  </script>
+  <span id='ct7' style="color: #ffffff"></span>
 </center>
 
 <body>
@@ -105,11 +105,29 @@
   </header>
 </body>
 <section>
-  <center>
-    <h1>
-      work in progress
-    </h1>
-  </center>
+  <div id="abtme" class="content-region left">
+    <h5>
+      Hello, I see you have found my website. </br>
+      My name is Isaiah. </br>
+      I go by many usernames: xem, mex, ltginrage, TheMexicanMoose, LegalExamination69. </br> </br>
+      I am a college student of geography from Illinois with intrests in
+      radios & public saftey. Currently a licensed GMRS operator. However
+      I currently studying for my amatuer radio technician ticket. </br> </br>
+      My current radio lineup includes: </br>
+      Uniden SDS100, BCD996P2, BC75XLT (Retired). </br>
+      TYT MD-UV380. </br>
+      Baofeng UV-5R </br>
+      Motorola HT1250, CDM1550LS, XPR3500E. </br>
+      Icom R-30 </br>
+      SDRs: 4 RTL-SDRs, AirSpy R2, AirSpy SpyVerter (Upverter for HF) </br>
+      This page would be way to long if I listed how many diffrent kinds of
+      antennas I have laying around. </br> </br>
+      GMRS Callsign: WRQE781 (Typically can be found on KANE600) </br>
+      Amatuer Callsign: Work in progress
+  </div>
+  </div>
+  </h5>
+  </div>
 </section>
 
 </html>
