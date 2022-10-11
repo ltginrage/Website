@@ -47,19 +47,19 @@
       hours = x.getHours() % 12;
       hours = hours ? hours : 12;
       hours = hours.toString().length == 1 ? 0 + hours.toString() : hours;
-  
+
       var minutes = x.getMinutes().toString()
       minutes = minutes.length == 1 ? 0 + minutes : minutes;
-  
+
       var seconds = x.getSeconds().toString()
       seconds = seconds.length == 1 ? 0 + seconds : seconds;
-  
+
       var month = (x.getMonth() + 1).toString();
       month = month.length == 1 ? 0 + month : month;
-  
+
       var dt = x.getDate().toString();
       dt = dt.length == 1 ? 0 + dt : dt;
-  
+
       var x1 = month + "/" + dt + "/" + x.getFullYear();
       x1 = x1 + " - " + hours + ":" + minutes + ":" + seconds + " " + ampm;
       document.getElementById('ct7').innerHTML = x1;
@@ -72,7 +72,8 @@
     display_c7()
   </script>
   <span id='ct7' style="color: #ffffff"></span>
-  </center>
+</center>
+
 <body>
   <div id="fb-root"></div>
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0"
@@ -86,16 +87,16 @@
     <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
     <ul class="main-menu">
       <li><a href="index.html">Home</a></li>
-      <li><a href="Resources.html">Resources</a></li>
-      <li><a clas="aboutmenav" href="aboutme.html">About me</a></li>
+      <li><a href="Pages/Resources.html">Resources</a></li>
+      <li><a clas="aboutmenav" href="Pages/aboutme.html">About me</a></li>
       <div class="dropdown">
         <button class="dropbtn button">Projects</button>
         <br>
         <div class="dropdown-content">
-          <a href="projects.html">Projects</a>
-          <a href="nisi-fb.html">Northern Illinois Scanner Incidents (Facebook)</a>
-          <a href="nisi-tw.html">Northern Illinois Scanner Incidents (Twitter)</a>
-          <a href="quakebot.html">Quake Bot (Twitter)</a>
+          <a href="Pages/projects.html">Projects</a>
+          <a href="Pages/nisi-fb.html">Northern Illinois Scanner Incidents (Facebook)</a>
+          <a href="Pages/nisi-tw.html">Northern Illinois Scanner Incidents (Twitter)</a>
+          <a href="Pages/quakebot.html">Quake Bot (Twitter)</a>
         </div>
       </div>
     </ul>
@@ -135,6 +136,17 @@
         <a href="https://1drv.ms/x/s!Ap5RKw57DnmuislY8fyA67D8pUHRLQ?e=k6AQP3" target="_blank">Illinois RID
           Spreadsheet</a>
       </p>
+      <p>
+        <a href="https://1drv.ms/x/s!Ap5RKw57DnmukNwMmsbQyxtCfZSlnQ?e=U2GOVI
+" target="_blank">Illinois SC21 Sites/TGs</a>
+      </p>
+      <p>
+        <a href="https://1drv.ms/x/s!Ap5RKw57DnmuoqMAPkCIBat_q3Yayg?e=HUJsan
+" target="_blank">Illinois FDs by division</a>
+      </p>
+      <p>
+        <a href="https://1drv.ms/x/s!Ap5RKw57Dnmuh4ATEd_3MoKHopknzQ?e=7JScLm" target="_blank">Illinois PD ENC Status</a>
+      </p>
       <h1>
         Fire Apparatus Databases
       </h1>
@@ -156,7 +168,7 @@
       </p>
       <p>
         <a href="https://docs.google.com/spreadsheets/d/1-Awt4VdkyFvQc8uO4bhpG_LNADaVifuitsw9iH8qL7Y/edit?usp=sharing"
-          target="_blank">New York Fire Apparatus </a>
+          target="_blank">New York Fire Apparatus (May be deleted soon)</a>
       </p>
       <h1>
         System Towers Maps
@@ -184,7 +196,7 @@
         <a href="https://github.com/ltginrage/website" target="_blank">Website data on GitHub</a>
       </p>
       <p>
-        <a href="https://forms.gle/f876te25yPDP5eXr7" target="_blank">Contact me form</a>
+        <a href="https://forms.office.com/r/BH1H0Qg5Nt" target="_blank">Contact me form</a>
       </p>
   </div>
 </section>
